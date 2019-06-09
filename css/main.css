@@ -1,0 +1,404 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   @font-face {
+	font-family: 'MYRIADPROREGULAR';
+	src: url('../fonts/MYRIADPROREGULAR.eot');
+	src: local('MYRIADPROREGULAR'), url('../fonts/MYRIADPROREGULAR.woff') format('woff'), url('../fonts/MYRIADPROREGULAR.ttf') format('truetype');
+}
+
+body{
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+
+.logo{
+	height: 100%;
+}
+
+.navbar-brand{
+padding: 0;
+margin-top: 10px;
+font-family: 'MYRIADPROREGULAR' !important;
+}
+.navbar-inverse{
+	background-color: #0C0C0C;
+	background-image: none;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+	margin-top: 10px;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.navbar{
+	min-height: 70px;
+}
+.main-banner{
+	height: 400px;
+	width: 100%;
+	background-image: url('../img/banner.jpg');
+	background-size: 100% 100%;
+}
+.main-wrapper{
+	margin-top: 70px;
+}
+.orange-patti{
+	    background: #ff9933;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+
+.black-patti{
+	    background: #000;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+
+.about-ekta-wrapper, .la{
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.aewl ul{
+	font-size: 20px;
+    line-height: 40px;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.about-ekta{
+	margin-top: 50px;
+}
+
+.img-responsive{
+	width: 100%;
+}
+.locationadvantage-wrapper{
+	margin-top: 50px;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.lawr{
+	border: 1px solid #ccc;
+	height: 100%;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.aminitieshead{
+	text-align: center;
+}
+.aminitieshead p{
+	    display: inline-block;
+    font-size: 26px;
+    padding: 5px;
+    margin: 50px 0;
+    font-weight: bold;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.outer-center-wrap{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.inner-center-wrap{
+	display: table-cell;
+	vertical-align: middle;
+}
+.internalwrap{
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.animhomewrap{
+	text-align: center;
+	margin: 15px 0;
+	padding: 0 10px;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+
+.animhomewrap span{
+	    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.animhomewrapdetail{
+	padding: 0 10px;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.greyback{
+	background-color: #ccc;
+	height: 100%;
+}
+.greyback a{
+	    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.bigmore{
+	text-align: center;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.bigmore a{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.much-more{
+	text-align: center;
+	font-size: 35px;
+	margin: 15px 0;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.much{
+	color:#ff9933;
+	border-bottom: 3px solid #ff9933;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.more{
+	color: #000;
+	border-bottom: 3px solid #000;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.floorplan-wrapper{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.fc1{
+	font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.fc2{
+	text-align: center;
+	font-size: 18px;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.owlitemone{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/footerup.png');
+	background-size: 100% 100%;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.owlreadyposs{
+	width: 300px;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 55px;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.orangetextwrap{
+    height: 200px;
+    width: 220px;
+    margin: 0 auto;
+    background-color: #ff6600;
+    color: #000;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.orangetextwrap p{
+	padding: 0 5px;
+	position: relative;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.bookby{
+	font-size: 55px;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.jstpaying{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 28px;
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+.fiveper{
+	    font-weight: bold;
+    color: #fff;
+    font-family: 'MYRIADPROREGULAR' !important;
+    font-size: 60px;
+    line-height: 76px;
+}
+.rightnw{
+    font-size: 26px;
+    position: absolute;
+    bottom: 12px;
+    width: 65px;
+    margin-left: 16px;
+    line-height: 27px;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.footer-back{
+	width: 100%;
+	height: 200px;
+	background-size: 100% 100%;
+	background-image: url('../img/footerback.png');
+}
+.form-wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.contact-form{
+
+    /* margin-top: 50px; */
+    background-color: #ff9933;
+    /* margin-bottom: 50px; */
+    font-family: 'MYRIADPROREGULAR' !important;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    bottom: 0;
+}
+.inputtag{
+	    width: 100%;
+    padding: 5px 10px;
+    color: grey;
+    font-size: 16px;
+    font-family: 'MYRIADPROREGULAR' !important;
+    font-weight: bold;
+}
+select{
+	padding: 6px 10px !important;
+}
+.contact-head{
+	    font-size: 20px;
+    text-align: center;
+    font-family: 'MYRIADPROREGULAR' !important;
+    padding: 8px 0;
+    font-weight: bold;
+}
+.submitbtn{
+	    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    font-family: 'MYRIADPROREGULAR' !important;
+    border-radius: 5px;
+}
+form{
+	padding-bottom: 15px;
+}
+.footer-text{
+	font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333333;
+    color: #fff;
+    //margin-bottom: 164px;
+    font-family: 'MYRIADPROREGULAR' !important;
+}
+.inlinewrapper{
+	margin-top: 20px;
+	line-height: 20px;
+}
+.inlinewrapper img{
+	width: 50px;
+}
+.alignspan{
+	    margin-left: 20px;
+	    font-family: 'MYRIADPROREGULAR' !important;
+    font-size: 20px;
+    /* display: inline-block; */
+    position: absolute;
+}
+
+
+@media screen and (max-width: 767px) {
+	.navbar-brand{
+		width: 73%;
+    margin-left: 10px;
+    height: 30px;
+	}
+	.navbar{
+		min-height: 50px;
+	}
+	.main-wrapper{
+		margin-top: 50px;
+	}
+	.margintop25{
+		margin-top: 25px;
+	}
+	.marginbottom25{
+		margin-bottom: 25px;
+	}
+	.aewl ul{
+		line-height: 30px;
+		margin-top: 25px;
+	}
+	.removenext{
+		margin-bottom: 120px;
+	}
+	.orange-patti{
+		margin-top: 25px !important;
+	}
+	.locationadvantage-wrapper{
+		margin-top: 25px;
+	}
+	.about-ekta{
+		margin-top: 25px;
+	}
+	.aminitieshead p{
+		margin: 25px;
+	}
+	.floorplan-wrapper{
+		margin-top: 25px;
+	}
+.black-patti{
+	margin-top: 25px !important;
+}
+.owlitemone{
+	height: 100%;
+}
+.owlreadyposs{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.orangetextwrap{
+	margin-bottom: 25px;
+}
+.form-wrapper{
+	width: 100%;
+}
+.inputtag{
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+}
+.contact-form{
+	background: rgba(0, 0, 0, 0.5);
+}
+.contact-head{
+	color: #fff;
+}
+.center-res{
+	text-align: center;
+}
+.submitbtn{
+	width: 100px;
+}
+form{
+	padding-bottom: 0;
+}
+}
+
+
+
